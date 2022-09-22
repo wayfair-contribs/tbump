@@ -2,6 +2,7 @@ name: safety
 on:
   schedule:
     - cron:  '0 1 * * *'
+  push:
 
 jobs:
   safety:
